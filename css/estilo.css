@@ -69,23 +69,19 @@
       font-size: 3rem; 
       text-align: left; 
       color:white;
-      /*padding-top: 10vw;*/
-      /*margin-top: 5vw;*/
       
 }
 .parallax p {
       font-size: 2rem; 
       text-align: left; 
-      
       color:white;
 }
 
-/* Jumbotron */
-
+/* Contenedor bootstrap y Jumbotron */
+.container-fluid{
+    padding:0;
+}
 .jumbotron {
-    /*background-image: url("../img/perifericos_comunicaciones_electricos.jpg");
-    background-size: cover;
-    color:white;*/
     background-color: rgb(4, 4, 88);
     color:white;
     font-size: 1.2rem; 
@@ -103,9 +99,6 @@
   .jumbotron p{
     margin-bottom: 0;
   }
-.container-fluid{
-    padding:0;
-}
 
 /* Tarjetas en contenedor */
   .flexContainer{
@@ -119,22 +112,17 @@
     padding-top: 2%;
     padding-bottom: 1%;
     background-color: rgb(4, 4, 88);
-    /*padding:2%*/
     gap:1%;
 }
 .card-body{
-    
     margin-bottom: 10px;
     padding-bottom: 10px;
     color: darkgreen;
 }
 .card{
-    
     border: 3px solid rgb(4, 4, 88);
     margin-bottom:10px;
-    padding-top: 20px;
-
-    
+    padding-top: 20px; 
 }
 .btn{
     background-color: rgb(4, 4, 88);
@@ -219,7 +207,6 @@
         font-size: 1.8rem;  
       }
 }
-
 
 /* vista mobile */
 @media only screen and (max-width: 767px){
